@@ -1,1 +1,1 @@
-# imdb
+# IMDb Projects (SQL + BI)
