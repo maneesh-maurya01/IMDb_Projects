@@ -1,1 +1,1 @@
-# IMDb Projects (SQL + BI)
+# 🎬 IMDb Projects (SQL + BI)
