@@ -472,35 +472,33 @@ The Power BI report includes:
 
 ## 🎬 Final Report Insights – IMDb(movies Table)
 ### 1. ⭐ IMDb Ratings Insights
-Average IMDb rating across all movies: `7.94 `(calculated)
+Average IMDb rating across all movies: `7.94 `
 
-* Top 10 highest-rated movies include
-`"The Godfather 9.2"
-"The Shawshank Redemption 9.1"
-"The Dark Knight 9"
-"The Godfather: Part II 9"
-"12 Angry Men 9"
-"The Lord of the Rings: The Return of the King 8.9 "
-"Pulp Fiction 8.9"
-"Schindler's List 8.9"
-"Inception 8.8"
-"Forrest Gump 8.8"`
+* Top 10 highest-rated movies lists -
+`The Godfather 9.2,
+The Shawshank Redemption 9.1,
+The Dark Knight 9,
+The Godfather: Part II 9,
+12 Angry Men 9,
+The Lord of the Rings: The Return of the King 8.9 ,
+Pulp Fiction 8.9,
+Schindler's List 8.9,
+Inception 8.8,
+Forrest Gump 8.8`
 
-* Genres with the highest average ratings: `"Animation Drama War 8.5"
-"Drama Musical 8.4"
-"Action Sci-Fi 8.4"
-"Drama Mystery War 8.35"
-` and `"Western 8.35"` consistently show above-average ratings.
+* Genres with the highest average ratings: `Animation Drama War 8.5, Drama Musical 8.4, Action Sci-Fi 8.4, Drama Mystery War 8.35 ` and `Western 8.35` consistently show above-average ratings.
 
-* Directors with the highest average ratings (with at least 3 movies): `"Frank Darabont"
-"Irvin Kershner"
-"Lana Wachowski"` lead the list.
+* Directors with the highest average ratings (with at least 3 movies): `Frank Darabont,
+Irvin Kershner, Lana Wachowski` lead the list.
+
+* Top 5 Highest rated meta score movies- `Rear Window, Soorarai Pottru, The Godfather, Casablanca, Lawrence of Arabia`
+* 
 ### 2. 💰 Revenue & Gross Insights
 * Average gross revenue: $680M (68016083.83)
 
 * Top 5 highest-grossing movies earned over $678 million.
 
-* Which movie generated the highest revenue is `Star Wars
+* Which movie generated the highest revenue is `Star Wars: Episode VII - The Force Awakens (936M)`
 
 * A strong positive correlation observed between IMDb rating and gross revenue, especially among highly rated films.
 
@@ -512,52 +510,44 @@ Average IMDb rating across all movies: `7.94 `(calculated)
 * Average movie runtime has slightly increased over the decades.
 
 ### 4. 🧑‍💼 Director & Actor Insights
-* Most active directors in the dataset include Steven Spielberg, Martin Scorsese, and Ridley Scott.
+* Most active directors in the dataset `Alfred Hitchcock(14), Steven Spielberg(13), and Hayao Miyazaki(11)`
 
-* Top actors by appearances across all movies:
-
-Robert De Niro
-
-Tom Hanks
-
-Leonardo DiCaprio
+* Top 5 actors by appearances across all movies:
+`Robert De Niro (17),
+Tom Hanks (14),
+Al Pacino (13),
+Brad Pitt (12),
+Clint Eastwood (12)`
 
 * These actors also often appear in high-grossing and highly rated films.
 
 ### 5. 🎭 Genre & Certificate Insights
-* Most popular genres: Drama, Comedy, and Action.
+* Most popular genres by votes: `Drama, Action Crime Drama, Action Adventure Sci-Fi`
 
-* Highest-rated genres: Biography, History, and Crime.
+* Highest-rated genres: ` Crime Drama(9.2), Drama(9.1), Crime Drama(9.1)`
 
-* Certificate distribution shows that:
+* `U-rated` films dominate the dataset (259 Movies).
 
-* R-rated films dominate the dataset.
-
-* PG-13 films earn more on average, likely due to broader audience appeal.
+* PG-16 films earn more on average, likely due to broader audience appeal.
 
 ### 6. 🕒 Runtime & Votes Insights
-* Average runtime: ~110 minutes.
+* Average runtime: ~122 minutes.
 
-* Top 5 longest movies run over 170 minutes.
+* Top 5 longest movies run over ~228 minutes.
 
 * Most voted movies (on IMDb) include blockbuster hits with high ratings and gross earnings.
+  `Star Wars: Episode VII - The Force Awakens (7.9 - 936M)`
 
 * High vote count often correlates with both box office success and IMDb popularity.
 
 ### 7. 🧠 Key Business Takeaways
-🎯 Well-rated movies (IMDb > 8.0) tend to earn more gross revenue and attract more votes.
+🎯 Well-rated movies (IMDb > 7.0) tend to earn more gross revenue and attract more votes.
 
-🎬 Action and Sci-Fi genres dominate in terms of revenue but Biography and Drama outperform in average rating.
+🎬 `Action Adventure Sci-Fi` genres dominate in terms of revenue but `Drama Musical` outperform in average rating.
 
-👥 Actor-director collaborations (e.g., DiCaprio–Nolan) appear repeatedly in top-rated/grossing lists.
+👥 Actor-director collaborations ` [ Daisy Ridley, John Boyega, Oscar Isaac, Domhnall Gleeson - J.J.Abrams]` appear in top-rated/grossing movie.
 
-🏆 For investment in movies, focus on:
-
-Directors with proven success
-
-Genres with high gross potential
-
-Runtime and certificate balance (PG-13 performs well)
+🏆 For investment in movies, focus on: Directors with proven success Genres with high gross potential Runtime and certificate balance (PG-16 performs well).
 
 
 
