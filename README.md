@@ -460,7 +460,50 @@ SELECT series_title,IMDB_Rating,Meta_score FROM movies_easy_view;
 
 
 ## 📊 Power BI Dashboard
-The Power BI report includes:
+- This is a multipage Power BI dashboard project analyzing a dataset of 1000 movies from IMDb. The dashboard provides insights into ratings, genres, directors, actors, runtime, and box office performance.
+
+🧰 SETUP (Once for All Pages)
+
+✅ 1. Load the dataset
+* Go to Home > Get Data > CSV or Excel
+* Select your IMDB dataset and load
+
+✅ 2. Ensure correct data types
+
+✅ 3. Create these basic measures (Modeling tab → New Measure):
+* Movie Count = COUNT('tablename'[Series_Title])
+* Avg Rating = AVERAGE('tablename'[IMDB_Rating])
+* Avg Gross = AVERAGE('tablename'[Gross])
+* Avg MetaScore = AVERAGE('tablename'[Meta_score])
+* Total Votes = SUM('tablename'[No_of_Votes])
+
+## 📊 Dashboard Pages Overview
+
+### ✅ Page 1: Overview
+- KPIs: Avg Rating, Total Gross, Movie Count, Total Votes
+- Year-wise Trend (IMDB Rating)
+- Top 10 Rated Movies
+
+### 🎬 Page 2: Directors & Stars
+- Top Directors by Movie Count and Meta Score
+- Top Actors by Gross earnings
+- Avg Rating & Gross by Actor
+
+### 🎭 Page 3: Genre & Runtime
+- Top Movies by Genre
+- Runtime by Genre
+- Genre, Rating, Meta score and Gross Bucket Analysis
+- Movie Count by Genre
+
+### 📈 Page 4: Ratings vs Gross
+- IMDB Rating vs Gross (Scatter)
+- Top Movies by Meta Score
+- Avg Rating & Avg Gross Over Time
+
+### 📈 Page 5: Timeline Explorer
+- Movies Count Over Time
+- Movies performance by Decade
+- Total Movies Released Per Decade
 
 💡 KPI Cards: Avg IMDb rating, total gross, total movies, Total Votes, Meta Score.
 
@@ -549,8 +592,11 @@ Clint Eastwood (12)`
 
 🏆 For investment in movies, focus on: Directors with proven success Genres with high gross potential Runtime and certificate balance (PG-16 performs well).
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## 🙋‍♂️ Author
 
-
+- **Name:** [Maneesh k. Maurya]
+- **LinkedIn:** [https://www.linkedin.com/in/mauryamaneesh/](#)
 
 
 
